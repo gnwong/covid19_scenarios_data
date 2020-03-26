@@ -1,4 +1,4 @@
-BASE_PATH = 'covid19_scenarios_data'
+BASE_PATH = 'data'
 JSON_DIR = 'assets'
 SOURCES_FILE = 'sources.json'
 TMP_CASES = 'case_counts.json'
