@@ -18,6 +18,8 @@ if __name__ == "__main__":
     parser.add_argument('--output-scenarios', type=str, default=None, help='path to scenarios file')
     args = parser.parse_args()
 
+    BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+
     if not os.path.isdir(BASE_PATH):
         print(f"This repo expects to sit inside a directory names '{BASE_PATH}'. "
                "Please check and either rename the directory or change BASE_PATH in "
